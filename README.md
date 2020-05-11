@@ -9,10 +9,11 @@
 My session at Google Developers Group Ahmedabad
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/images/rishit.jpg">
+  <img src="https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/images/rishit.jpg">
+  
+  <details>
+  <summary>Credits</summary>
+  Poster designed by Vatsal Trivedi- https://twitter.com/trivedivatsal_
+  </details>
 </p>
 
-<details>
-<summary>Credits</summary>
-Poster designed by Vatsal Trivedi- https://twitter.com/trivedivatsal_
-</details>
