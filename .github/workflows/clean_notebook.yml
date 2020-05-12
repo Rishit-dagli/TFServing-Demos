@@ -1,5 +1,6 @@
-- name: Ensure Clean Jupyter Notebooks
-  uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
-  with:
-    # Optional list of linting checks to disable
-    disable-checks: execution_count
+name: Ensure Clean Jupyter Notebooks
+on: [push]
+uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+with:
+  # Optional list of linting checks to disable
+  disable-checks: execution_count
