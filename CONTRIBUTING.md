@@ -9,7 +9,7 @@ These are mostly guidelines, not rules. Use your best judgment, and feel free to
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Before Submitting A Bug Report](#Before-Submitting-A-Bug-Report)
-  * [How Do I Submit A (Good) Bug Report?](#How-Do-I-Submit-A-(Good)-Bug Report?)
+  * [How Do I Submit A (Good) Bug Report?](https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/CONTRIBUTING.md#how-do-i-submit-a-good-bug-report)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](Suggesting-Enhancements)
   * [Before Submitting An Enhancement Suggestion](#Before-Submitting-An-Enhancement-Suggestion)
