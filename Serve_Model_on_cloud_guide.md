@@ -25,3 +25,25 @@ We will discretely follow these steps:
 - An active GCP project
 - Basic TF Model server knowledge
 - Basic model building knowledge in Keras
+
+## Project setup
+
+- Make sure you have selected a project
+- Set an environment variable called `DEPLOYMENT_NAME`
+
+```bash
+export DEPLOYMENT_NAME = kf-mnist
+```
+
+- Ensure you set a zone
+- Enable few APIs, you would need to enable a few APIs run this in the cloud shell to do so:
+
+```bash
+gcloud services enable \
+  cloudresourcemanager.googleapis.com \
+  iam.googleapis.com \
+  file.googleapis.com \
+  ml.googleapis.com
+```
+
+This might take a minute or so to run.
