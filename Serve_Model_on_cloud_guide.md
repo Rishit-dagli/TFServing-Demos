@@ -66,7 +66,7 @@ This might take a minute or so to run.
 https://iap.googleapis.com/v1/oauth/clientIds/<CLIENT_ID>:handleRedirect
 ```
 
-  * <CLIENT_ID> is the OAuth client ID that you copied from the dialog box in step four. It looks like XXX.apps.googleusercontent.com.
+  * `<CLIENT_ID>` is the OAuth client ID that you copied from the dialog box in step four. It looks like `XXX.apps.googleusercontent.com`.
   * Note that the URI is not dependent on the Kubeflow deployment or endpoint. Multiple Kubeflow deployments can share the same OAuth client without the need to modify the redirect URIs.
 * Save it
 * Make a note of client ID and client secret, we will be using that
