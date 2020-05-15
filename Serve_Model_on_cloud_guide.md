@@ -47,3 +47,26 @@ gcloud services enable \
 ```
 
 This might take a minute or so to run.
+
+### Set up OAuth Client
+
+* Navigate to [Oauth Consent Screen](https://console.cloud.google.com/apis/credentials/consent)
+  * In the Application name box, enter the name of your application
+  * Under Authorized domains, enter `<project_id>.cloud.goog`
+  * Save it
+* Naviagte to [Credentials screen](https://console.cloud.google.com/apis/credentials)
+  * Click Create credentials, and then click OAuth client ID.
+  * Under Application type, select Web application.
+  * In the Name box enter any name for your OAuth client ID. This is not the name of your application nor the name of your Kubeflow deployment. It’s just a way to help you identify the OAuth client ID.
+* Click Create > Copy the client ID
+* On the Create credentials screen, find your newly created OAuth credential and click the pencil icon to edit it
+* In the Authorized redirect URIs box, enter the following:
+
+```
+https://iap.googleapis.com/v1/oauth/clientIds/<CLIENT_ID>:handleRedirect
+```
+
+  * <CLIENT_ID> is the OAuth client ID that you copied from the dialog box in step four. It looks like XXX.apps.googleusercontent.com.
+  * Note that the URI is not dependent on the Kubeflow deployment or endpoint. Multiple Kubeflow deployments can share the same OAuth client without the need to modify the redirect URIs.
+* Save it
+* Make a note of client ID and client secret, we will be using that
