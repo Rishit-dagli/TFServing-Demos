@@ -70,3 +70,22 @@ https://iap.googleapis.com/v1/oauth/clientIds/<CLIENT_ID>:handleRedirect
   * Note that the URI is not dependent on the Kubeflow deployment or endpoint. Multiple Kubeflow deployments can share the same OAuth client without the need to modify the redirect URIs.
 * Save it
 * Make a note of client ID and client secret, we will be using that
+
+## Create a Kubeflow cluster
+
+### Create a cluster
+
+Create a managed Kubernetes cluster on Kubernetes Engine by visiting the Kubeflow Click-to-Deploy site in your browser and signing in 
+with your GCP account
+
+[Kubeflow Click-to-Deploy](https://deploy.kubeflow.cloud/)
+
+* Project: Enter your GCP `$PROJECT_ID` in the top field
+* Deployment name: Set the default value to `kf-mnist`.
+* In the Choose how to connect to kubeflow service dropdown, select `"Login with GCP IAP"`. Then, for the IAP client ID and client secret fields, enter the OAuth credentials that you created in the previous section.
+* GKE Zone: Use the value you have set for `$ZONE`, selecting it from the pulldown.
+* Kubeflow Version: `v1.0.0` or greater
+
+Generate the cluster by clicking Create Deployment. This will create a deployment object with everything necessary for installing Kubeflow, e.g. GKE resource requirements, service accounts, etc. You should receive something like this
+
+![](images/kubeflow_cluster_success.PNG)
