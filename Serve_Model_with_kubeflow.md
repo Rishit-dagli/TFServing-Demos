@@ -1,4 +1,4 @@
-# Serve Model on Cloud with Kubernetes and TF Model server
+# Serve Model on Cloud with KubeFlow and TF Model server
 
 Fortunately, distributed workloads are becoming easier to manage, thanks to Kubernetes. Kubernetes is a mature, production ready platform 
 that gives developers a simple API to deploy programs to a cluster of machines as if they were a single piece of hardware. Using Kubernetes
