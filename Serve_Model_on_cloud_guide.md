@@ -114,3 +114,17 @@ You should see two nodes listed, both with a status of `Ready`, and other inform
 When the IAP endpoint is set up, the deployment web app should redirect you to the Kubeflow Dashboard. You can also click the Kubeflow Service Endpoint button to be redirected.
 
 ![](images/kubeflow_dasboard.PNG)
+
+## Set up a Kubeflow Jupyter notebook server
+
+You can interactively define and run Kubeflow Pipelines from a Jupyter notebook. To create a notebook, navigate to the Notebook Servers
+link on the central Kubeflow dashboard.
+
+* click on **NEW SERVER**.
+* Give your server a name, select the TensorFlow 1.15.x cpu image, and leave all other settings on defaults as below
+* Click the LAUNCH button, which generates a new pod in your cluster
+* After a few minutes, your notebook server will be up and running
+* click **CONNECT** to connect
+* After you have connected, open a terminal.
+
+![](images/terminal_nb.PNG)
