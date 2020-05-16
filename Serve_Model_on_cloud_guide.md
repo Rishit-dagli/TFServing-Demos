@@ -89,3 +89,28 @@ with your GCP account
 Generate the cluster by clicking Create Deployment. This will create a deployment object with everything necessary for installing Kubeflow, e.g. GKE resource requirements, service accounts, etc. You should receive something like this
 
 ![](images/kubeflow_cluster_success.PNG)
+
+### Set Up `kubectl`
+
+When the cluster has been created, connect your environment to the Kubernetes Engine cluster by running the following command in your Cloud Shell:
+
+```bash
+gcloud container clusters get-credentials ${DEPLOYMENT_NAME} \
+  --project ${PROJECT_ID} \
+  --zone ${ZONE}
+```
+
+![](images/kubectl_get_credentials.PNG)
+
+This configures your kubectl context so that you can interact with your cluster. To verify the connection, run the following command:
+```bash
+kubectl get nodes -o wide
+```
+
+You should see two nodes listed, both with a status of `Ready`, and other information about node age, version, external IP address, OS image, kernel version, and container runtime.
+
+### Connecting to KubeFlow dashboard
+
+When the IAP endpoint is set up, the deployment web app should redirect you to the Kubeflow Dashboard. You can also click the Kubeflow Service Endpoint button to be redirected.
+
+![](images/kubeflow_dasboard.PNG)
