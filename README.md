@@ -10,12 +10,10 @@ My session at Google Developers Group Ahmedabad about **Deploying models to prod
 
 <h3> <a href="https://www.meetup.com/GDG-Ahmedabad/events/270477738/">Event Announcement</a></h3>
 
-<p align="center">
-  <img src="https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/images/rishit.jpg">
+![](images/rishit.jpg)
   
   <details>
   <summary>Credits</summary>
   Poster designed by Vatsal Trivedi- https://twitter.com/trivedivatsal_
   </details>
-</p>
 
