@@ -1,7 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
 - [MNIST on Kubeflow](#mnist-on-kubeflow)
 - [MNIST on Kubeflow on GCP](#mnist-on-kubeflow-on-gcp)
 - [MNIST on other platforms](#mnist-on-other-platforms)
@@ -31,13 +27,6 @@
 # MNIST on Kubeflow
 
 This example guides you through the process of taking an example model, modifying it to run better within Kubeflow, and serving the resulting trained model.
-
-Follow the version of the guide that is specific to how you have deployed Kubeflow
-
-1. [MNIST on Kubeflow on GCP](#gcp)
-1. [MNIST on Kubeflow on AWS](#aws)
-1. [MNIST on Kubeflow on vanilla k8s](#vanilla)
-1. [MNIST on other platforms](#other)
 
 <a id=gcp></a>
 # MNIST on Kubeflow on GCP
