@@ -8,7 +8,9 @@
 
 My session at Google Developers Group Ahmedabad about **Deploying models to production with TensorFlow model server**, 30 May 2020. Special thanks to [Hiren Dave](https://twitter.com/hjdave) and [Paresh Mayani](https://twitter.com/pareshmayani) for hosting me.
 
-<h3> <a href="https://www.meetup.com/GDG-Ahmedabad/events/270477738/">Event Announcement</a></h3>
+### [Event Announcement](https://www.meetup.com/GDG-Ahmedabad/events/270477738/)
+
+### [Slides](https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/Deploying%20models%20to%20production%20with%20TensorFlow%20model%20server%20(1).pdf)
 
 ![](images/rishit.jpg)
   
