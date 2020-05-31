@@ -12,6 +12,8 @@ My session at Google Developers Group Ahmedabad about **Deploying models to prod
 
 ### [Slides](https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/Deploying%20models%20to%20production%20with%20TensorFlow%20model%20server%20(1).pdf)
 
+### [Blog](https://towardsdatascience.com/deploying-models-to-production-with-tensorflow-model-server-225a81859031)
+
 ![](images/rishit.jpg)
   
   <details>
