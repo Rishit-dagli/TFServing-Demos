@@ -14,6 +14,8 @@ My session at Google Developers Group Ahmedabad about **Deploying models to prod
 
 ### [Blog](https://towardsdatascience.com/deploying-models-to-production-with-tensorflow-model-server-225a81859031)
 
+### [Recording](https://www.youtube.com/watch?v=SD5ePd6ouuY)
+
 ![](images/rishit.jpg)
   
   <details>
