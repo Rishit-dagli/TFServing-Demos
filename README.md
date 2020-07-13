@@ -1,4 +1,4 @@
-# GDG-Ahmedabad-2020 <img src="images/GDGAhm-rectangle.png" height = 50>
+# GDG-Ahmedabad-2020 <img src="https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/images/GDGAhm-rectangle.png?raw=true" height = 50>
 
 [![](https://img.shields.io/badge/Rishit-Dagli-brightgreen.svg?colorB=00ff00)](https://www.rishit.tech)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
