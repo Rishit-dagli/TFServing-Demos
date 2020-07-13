@@ -1,6 +1,19 @@
-name: Ensure Clean Jupyter Notebooks
-on: [push]
-uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
-with:
-  # Optional list of linting checks to disable
-  disable-checks: execution_count
+name: Ensure Clean Notebook Metadata
+
+on:
+  push:
+    paths:
+      - '/'
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  clean-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check Notebooks for clean metadata
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+        with:
+          disable-checks: execution_count
