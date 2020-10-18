@@ -1,5 +1,11 @@
 ## Devfest Kenya
 
+![](images/df-kenya.png)
+
+### [Event Announcement](https://gdg.community.dev/events/details/google-gdg-nairobi-presents-gdg-kenya-devfest-2020/#/)
+
+### [Blog](https://towardsdatascience.com/deploying-models-to-production-with-tensorflow-model-server-225a81859031)
+
 ## GDG-Ahmedabad-2020 
 
 ![](images/GDGAhm-rectangle.png)
