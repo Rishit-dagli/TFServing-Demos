@@ -1,4 +1,4 @@
-# GDG-Ahmedabad-2020 
+# TfServing-Demos
 
 [![](https://img.shields.io/badge/Rishit-Dagli-brightgreen.svg?colorB=00ff00)](https://www.rishit.tech)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
