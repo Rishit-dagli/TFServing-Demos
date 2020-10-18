@@ -6,22 +6,4 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/rishit_dagli?style=social)
 ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FGDG-Ahmedabad-2020)
 
-![](images/GDGAhm-rectangle.png)
-
-My session at [Google Developers Group Ahmedabad](https://gdgahmedabad.com/) about **Deploying models to production with TensorFlow model server**, 30 May 2020. Special thanks to [Hiren Dave](https://twitter.com/hjdave) and [Paresh Mayani](https://twitter.com/pareshmayani) for hosting me.
-
-### [Event Announcement](https://www.meetup.com/GDG-Ahmedabad/events/270477738/)
-
-### [Slides](https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/Deploying%20models%20to%20production%20with%20TensorFlow%20model%20server%20(1).pdf)
-
-### [Blog](https://towardsdatascience.com/deploying-models-to-production-with-tensorflow-model-server-225a81859031)
-
-### [Recording](https://www.youtube.com/watch?v=SD5ePd6ouuY)
-
-![](images/rishit.jpg)
-  
-  <details>
-  <summary>Credits</summary>
-  Poster designed by Vatsal Trivedi- https://twitter.com/trivedivatsal_
-  </details>
-
+Demos for my session about Deploying models to production with TensorFlow Serving.
