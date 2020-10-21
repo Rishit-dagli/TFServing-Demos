@@ -1,5 +1,8 @@
 # TfServing-Demos
 
+[![Open in Colab button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/TFServing-Demos)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/TFServing-Demos/master)
+
 [![](https://img.shields.io/badge/Rishit-Dagli-brightgreen.svg?colorB=00ff00)](https://www.rishit.tech)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![GitHub followers](https://img.shields.io/github/followers/Rishit-dagli?style=social)
