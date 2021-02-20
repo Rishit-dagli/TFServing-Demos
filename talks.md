@@ -1,3 +1,13 @@
+## TF Evrywhere India
+
+![](images/tf_everywhere.png)
+
+### [Event Announcement](http://tfeverywhere.web.app/)
+
+### [Tweet](https://twitter.com/TFUGIndia/status/1361280469795368965?s=20)
+
+### [Slides](http://bit.ly/serving-deck)
+
 ## Devfest Kenya
 
 ![](images/df-kenya.png)
