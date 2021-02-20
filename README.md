@@ -2,6 +2,7 @@
 
 [![Open in Colab button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/TFServing-Demos)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/TFServing-Demos/master)
+<a href="https://bit.ly/serving-deck"><img src="images/speakerdeck_button.svg" height="20"></a>
 
 [![](https://img.shields.io/badge/Rishit-Dagli-brightgreen.svg?colorB=00ff00)](https://www.rishit.tech)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
