@@ -8,8 +8,6 @@
 
 ## GDG-Ahmedabad-2020 
 
-![](images/GDGAhm-rectangle.png)
-
 My session at [Google Developers Group Ahmedabad](https://gdgahmedabad.com/) about **Deploying models to production with TensorFlow model server**, 30 May 2020. Special thanks to [Hiren Dave](https://twitter.com/hjdave) and [Paresh Mayani](https://twitter.com/pareshmayani) for hosting me.
 
 ### [Event Announcement](https://www.meetup.com/GDG-Ahmedabad/events/270477738/)
