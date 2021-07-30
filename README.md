@@ -13,3 +13,15 @@
 Demos for my session about Deploying models to production with TensorFlow Serving. I would urge you to check out 
 [talks.md](https://github.com/Rishit-dagli/GDG-Ahmedabad-2020/blob/master/talks.md) for more details and the talks I have given about this. I would also urge you to check out the 
 [blog](https://towardsdatascience.com/deploying-models-to-production-with-tensorflow-model-server-225a81859031) by me on the same.
+
+## Port Forwarding while on Colab
+
+In case you want to test your API out while staying on Colab itself, you could easily forward your REST API port with ngrok to try out the API outside of Colab using this code:
+
+```py
+!pip install pyngrok
+
+from pyngrok import ngrok
+model_tunnel = ngrok.connect(8501)
+print(model_tunnel)
+```
